@@ -1,0 +1,1 @@
+echo linux:123456 > /tmp/pw && chpasswd < /tmp/pw && rm -f /tmp/pw && history -c
